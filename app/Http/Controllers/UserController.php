@@ -28,7 +28,7 @@ class UserController extends Controller
                 return redirect()->back()
                     ->withInput($request->only('email', 'remember'))
                     ->withErrors([
-                        'contrasena' => 'La contraseña que ingresaste es incorrecta.',
+                        'contrasena' => 'La contraseña que ingresaste esgit  incorrecta.',
                     ]);
             }
         } else {
